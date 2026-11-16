@@ -1,0 +1,39 @@
+{
+    "keyboard_name": "Action Bar",
+    "manufacturer": "Donia Nady",
+    "maintainer": "donianady",
+    "usb": {
+        "vid": "0xFEED",
+        "pid": "0x0001",
+        "device_version": "1.0.0"
+    },
+    "processor": "RP2040",
+    "bootloader": "rp2040",
+    "matrix_pins": {
+        "direct":[
+            ["GP3", "GP4", "GP2", "GP1", "GP26", "GP29"]
+        ]
+    },
+    "features":
+    {
+        "bootmagic": false,
+        "command": false,
+        "console": false,
+        "extrakey": true,
+        "nkro": true,
+        "rncoder": true,
+    },
+    "layouts":
+    {
+        "LAYOUT": {
+            "layout": [
+                {"matrix": [0, 0], "x": 0, "y": 0},
+                {"matrix": [0, 1], "x": 1, "y": 0},
+                {"matrix": [0, 2], "x": 2, "y": 0},
+                {"matrix": [0, 3], "x": 0, "y": 1},
+                {"matrix": [0,4], "x": 1, "y": 1},
+                {"matrix": [0, 5], "x": 2, "y": 1},
+            ]
+        }
+    }
+}
